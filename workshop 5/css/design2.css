@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ffba00;
+}
+header{
+    background-color: #ffba00;
+    height: 100vh;
+}
+.main{
+    text-align: center;
+    padding-top: 40px;
+}
+.main h1{
+    font-size: 50px;
+}
+.picture{
+    margin: 70px;
+}
+img{
+    height: 50vh;
+}
+.picture{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.picture-1{
+    
+    text-align: center;
+}
+h3{
+    padding-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .picture{
+        width: 219px;
+    }
+  }
